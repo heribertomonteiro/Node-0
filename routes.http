@@ -1,0 +1,27 @@
+POST http://localhost:8000/videos
+Content-Type: application/json
+
+{
+    "title": "Video Gilberth",
+    "description": "Esse é o primeiro video",
+    "duration": 180
+}
+
+###
+
+GET http://localhost:8000/videos
+
+###
+
+PUT http://localhost:8000/videos/8f7e797c-abe1-4877-bdf8-e7930b5905c4
+Content-Type: application/json
+
+{
+    "title": "Video01",
+    "description": "Esse é o primeiro video",
+    "duration": 180
+}
+
+###
+
+DELETE http://localhost:8000/videos/8f7e797c-abe1-4877-bdf8-e7930b5905c4
